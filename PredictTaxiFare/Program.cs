@@ -46,7 +46,7 @@ void TestSinglePrediction(MLContext mlContext, ITransformer model)
         RateCode = "1",
         PassengerCount = 1,
         TripTime = 1140,
-        TripDistance = 3.75f,
+        TripDistance = 3.95f,
         PaymentType = "CRD",
         FareAmount = 0 // To predict. Actual/Observed = 15.5
     };
